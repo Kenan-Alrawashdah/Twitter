@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="div-home">
+                <h3>Home</h3>
+            </div>
+            <div class="div-icon "><a href="#"><span class="material-icons">star_border</span></a></div>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="div-img"><a href="#"><img id="img-user" src="baseline_account_circle_black_48dp.png"></a>
+                </div>
+                <div class="items">
+                    <div class="div-textarea"><textarea id="textarea-post" placeholder="What's happening?"></textarea> </div>
+                    <div class="photopost"></div>
+                    <div class="icon-button">
+                        <div class="icons">
+                            <a href="#"><span class="material-icons">add_photo_alternate</span></a>
+                            <a href="#"><span class="material-icons gif">gif </span></a>
+                            <a href="#"><span class="material-icons">sentiment_satisfied_alt</span></a>
+                            <a href="#"><span class="material-icons"> poll</span></a>
+                            <a href="#"><span class="material-icons">today</span></a>
+                        </div>
+                        <div><button class="btn-post">Tweet</button></div>
+                    </div>
+                </div>
+            </section>
+            <section class="add-post" >
+                <div id ="target" class="post hide">
+                    <div class="post-img"><a href="#"><img id="img-user" src="baseline_account_circle_black_48dp.png"></a></div>
+                    <div class="property-user">
+                       <div class="top-post">
+                        <div class="user-name" ><h3 class="h3-name-post">kenan hassan</h3></div>
+                        <div  class="icon-edit more"><span class="material-icons icons-more"> expand_more </span></div>
+                    </div>
+                       <div class="user-post"><p class="p-post">eewoji jiejfiew kmweope kspddkef kjiewfekije
+                            fijjew eewoji jiejfiew kmweope kspddkef kjiewfekije fijjeweewoji jiejfiew kmweope
+                             kspddkef kjiewfekije fijjew</p></div>
+                       <div class="icons-buttom-post">
+                        <span class="material-icons icons-post icon-comment-post">chat_bubble_outline </span>
+                        <span class="material-icons icons-post like-post">favorite_border</span>
+                        <span class="material-icons icons-post">vertical_align_bottom</span>
+                        <span class="icon-delete material-icons"> delete</span>
+                       </div>
+                       <div class="div-comment" style="display: none;">
+                           <div class="div-comment-user"></div>
+                           <div class="div-inpit-icon-comment">
+                              <div class="input-comment"><textarea class ="textarea-comment" placeholder="Write a comment"></textarea></div>
+                              <div class="send-comment"><span class="material-icons send-icon">send</span></div>
+                           </div>
+
+                       </div>  
+                    </div> 
+                    <!-- <div class="mneuRelitev"> -->
+                        <!-- <div id ="mneu" class="mneu-item hide">
+                            <div class="delete-item">
+                                <div class="delete-icno"></div>
+                                <div class="delete"><a href="#" ><span class="material-icons icon-delete"> delete</span> <p class="btn-delete">Delete</p></a></div>
+                            </div>
+                            
+                        </div>   -->
+                    <!-- </div> -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+   
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+</body>
+<script src="page.js"></script>
+</html>
